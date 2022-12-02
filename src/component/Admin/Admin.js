@@ -1,9 +1,10 @@
 import React from 'react'
 import LoginPage from '../Loginpage/loginpage'
+import './style.css'
 
 const Admin = () => {
   return (
-    <div>
+    <div className='Admin'>
         <LoginPage name = "Admin"/>
     </div>
   )

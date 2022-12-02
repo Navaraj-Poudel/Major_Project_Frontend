@@ -3,9 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
-    background-image: url(/src/component/images/l3.png);
-}
 .login{
     height:74vh;
     display: flex;

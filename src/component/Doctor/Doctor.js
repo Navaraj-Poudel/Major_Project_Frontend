@@ -1,12 +1,13 @@
-import React from 'react'
-import LoginPage from '../Loginpage/loginpage'
+import React from "react";
+import LoginPage from "../Loginpage/loginpage";
+import "./style.css";
 
 const Doctor = () => {
   return (
-    <div>
-   <LoginPage name = "Doctor"/>
+    <div className="Doct">
+      <LoginPage name="Doctor" />
     </div>
-  )
-}
+  );
+};
 
-export default Doctor
+export default Doctor;

@@ -1,3 +1,4 @@
-body{
-    background-image: url(l3.png);
+.Admin{
+    background-image: url(/src/component/images/l3.png);
+    height: 100vh;
 }

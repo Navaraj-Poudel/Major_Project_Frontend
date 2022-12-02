@@ -11,15 +11,14 @@ import {
 import Doctor from './component/Doctor/Doctor';
 import Admin from './component/Admin/Admin';
 import Contactus from './component/Contactus/Contactus';
-import l3 from './component/images/l3.png'
+// import l3 from './component/images/l3.png'
+import Doctor1 from './component/Doctor/Doctor1';
 
 const App = ()=> {
   return (
     <div>
       <BrowserRouter>
-
       <Navbar/>
-      
       <Routes>
           <Route path="/" index element = { <Home/>} />
           <Route path="/about" element = { <About/>} />

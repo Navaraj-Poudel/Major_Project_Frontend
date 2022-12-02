@@ -1,0 +1,49 @@
+  .Doct{
+    background-image: url(/src/component/images/l3.png);
+    height: 100vh;
+   }
+   
+  /* *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+   @media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+    }
+    }
+    .main-na{
+      display: flex;
+    
+    }
+    .nav2{
+      padding-top: 8px;
+    }
+    .navbar{
+      align-items: flex-start;
+      width: 12vw;
+      height:90vh;
+      background-color:black;
+    }
+    .navbar h4{
+      font-size:16px;
+      padding:5px;
+    }
+    .navbar h1{
+      color: white;
+    }
+    .nav-item h4{
+      color: white;
+    }
+    .nav1{
+      height:60px;
+      background-color:skyblue;
+      width:100vw;
+      margin-bottom: -8px;
+    }
+    .text{
+      color: white;
+      text-align: center;
+      padding: 20px;
+    } */

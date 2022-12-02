@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import l1 from './m.png'
+// import l1 from './m.png'
 const Navbar = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-lg bg-light fs-5 pt-3 pb-3">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src={l1} alt="" />
+            {/* <img src={l1} alt="" /> */}
           </a>{" "}
           <h4>Smart Health Card</h4>
           <button
