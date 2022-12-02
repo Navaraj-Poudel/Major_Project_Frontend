@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/src/component/images/l3.png);
+}
+.login{
+    height:74vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-1{
+    border-radius:20px;
+    background-color: white;
+    padding: 20px;
+}
+.login form{
+ font-size: 21px;
+}
+.login-1 h1{
+    font-size: 36px;
+    margin-bottom: 22px;
+}
+.form-group{
+    margin-bottom:10px;
+}
