@@ -2,3 +2,13 @@
     background-image: url(/src/component/images/l3.png);
     height: 100vh;
 }
+.patient{
+    display: flex;
+}
+.card-img-top{
+    padding: 15px 20px;
+    
+}
+.personalinfo{
+    padding: 15px 20px;
+}

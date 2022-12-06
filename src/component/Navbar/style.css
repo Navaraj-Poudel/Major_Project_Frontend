@@ -4,3 +4,14 @@
 .nav-item{
     padding: 5px;
 }
+.bg-light{
+    background-image: linear-gradient(to right,#386641,#6a994e);
+    color: white;
+}
+.bg-light h5{
+    color: white;
+}
+h5:hover{
+    font-size: 22px;
+    color:white;
+}

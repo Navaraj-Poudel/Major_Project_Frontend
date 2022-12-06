@@ -2,11 +2,12 @@ import React from 'react'
  import './style.css'
  import { Link } from "react-router-dom";
 const loginpage = (props) => {
+
   return (
     <>
 
       <div className="login">
-        <form className='needs-validation'>
+        <form className='need-validation'>
             <div className="login-1">
 
          <h1>{props.name} Login-Page!!</h1>
@@ -31,14 +32,12 @@ const loginpage = (props) => {
                 <input type="checkbox" id='checkbox'/> 
                 <label htmlFor='checkbox'>Remember me</label>
         </div>
-        
-        <Link class="nav-link active" aria-current="page" to="/doctor1">
-                  <h5> <input className='btn btn-success' type="submit" value="login-in"/></h5>
-                </Link> 
-       
+        <Link className="nav-link active" aria-current="page" to={props.newpage}>
+                  <h5> <button className='btn btn-success'>LogIn</button></h5>
+                </Link>
 
             </div>
-        </form>
+            </form>
       </div>
     </>
   )

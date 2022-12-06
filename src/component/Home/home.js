@@ -1,12 +1,13 @@
 import React from 'react'
+import Footer from '../footer/Footer'
 import './style.css'
 const Home = () => {
   return (
-    <div>
+    <>
       <div className="home">
-        i am navaraj
       </div>
-    </div>
+        <Footer/>
+    </>
   )
 }
 

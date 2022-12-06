@@ -4,15 +4,15 @@ import "./style.css";
 // import l1 from './m.png'
 const Navbar = () => {
   return (
-    <div>
-      <nav class="navbar navbar-expand-lg bg-light fs-5 pt-3 pb-3">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+    <div className="NAV">
+      <nav className="navbar navbar-expand-lg bg-light fs-5 pt-3 pb-3">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
             {/* <img src={l1} alt="" /> */}
           </a>{" "}
           <h4>Smart Health Card</h4>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -20,38 +20,54 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/">
                   <h5>Home</h5>
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/about">
+              <li className="nav-item">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/about"
+                >
                   <h5>About</h5>
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/doctor">
+              <li className="nav-item">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/doctor"
+                >
                   <h5>Doctor</h5>
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/patient">
+              <li className="nav-item">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/patient"
+                >
                   <h5>Patient</h5>
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/admin">
+              <li className="nav-item">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/admin"
+                >
                   <h5>Admin</h5>
                 </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
-                  class="nav-link active"
+                  className="nav-link active"
                   aria-current="page"
                   to="/contactus"
                 >

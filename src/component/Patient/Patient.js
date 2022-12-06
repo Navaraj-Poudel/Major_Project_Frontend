@@ -5,7 +5,7 @@ import './style.css'
 const Patient = () => {
   return (
     <div className='Patient'> 
-      <Loginpage name = "Patient" />
+      <Loginpage name = "Patient" newpage="/Patient1" />
     </div>
   )
 }
