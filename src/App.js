@@ -45,6 +45,7 @@ const App = ()=> {
           <Route path="/Yourinfo" element = {<Yourinfo/>} />
           <Route path="/Previoustr" element = {<Previoustr/>} />
           <Route path="/Latesttr" element = {<Latesttr/>} />
+          <Route path="/Yourinfo" element = {<Yourinfo/>} />
         </Routes>
       </BrowserRouter>
     </div>

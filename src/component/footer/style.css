@@ -1,9 +1,22 @@
 .footer{
-    background-color:#6a994e ;
+    background-color:#304146 ;
     height: 69px;
     color: white;
     text-align: center;
+    display: flex;
+    padding-left: 260px;
 }
 .footer h4{
     padding-top: 17px;
+}
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+    color: white;
+    height: 310x;
+}
+.footer a{
+    padding: 10px;
+}
+.singleCol{
+    padding-top: 20px;
+    padding-left: 600px;
 }

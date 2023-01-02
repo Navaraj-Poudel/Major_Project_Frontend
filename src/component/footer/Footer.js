@@ -1,9 +1,32 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faFacebook,faTwitter,faInstagram,faYoutube,faGithub} from '@fortawesome/free-brands-svg-icons'
 import './style.css'
 const Footer=()=> {
   return (
       <div className="footer">
-        <h4>© 2020 Copyright : Smart Health Card</h4>
+         <div className="write">
+        <h4>© 2022 Copyright : Smart Health</h4>
+        </div>
+
+        <div className ="singleCol social-media-icons-white">
+       <a href="https://www.facebook.com/">
+        <FontAwesomeIcon icon={faFacebook}/>
+       </a>
+       <a href="https://www.facebook.com/">
+        <FontAwesomeIcon icon={faTwitter}/>
+       </a>
+       <a href="https://www.instagram.com/">
+        <FontAwesomeIcon icon={faInstagram}/>
+       </a>
+       <a href="https://www.youtube.com/">
+        <FontAwesomeIcon icon={faYoutube}/>
+       </a>
+       <a href="https://github.com/">
+        <FontAwesomeIcon icon={faGithub}/>
+       </a>
+        </div>
+       
       </div>
   );
 }

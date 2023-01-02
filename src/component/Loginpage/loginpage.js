@@ -33,7 +33,7 @@ const loginpage = (props) => {
                 <label htmlFor='checkbox'>Remember me</label>
         </div>
         <Link className="nav-link active" aria-current="page" to={props.newpage}>
-                  <h5> <button className='btn btn-success'>LogIn</button></h5>
+                  <h5> <button className= {props.color}>LogIn</button></h5>
                 </Link>
 
             </div>

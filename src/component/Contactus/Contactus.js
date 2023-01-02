@@ -1,9 +1,13 @@
 import React from 'react'
-
+import Footer from '../footer/Footer'
+import './style.css'
 const Contactus = () => {
   return (
-    <div>
+    <>
+    <div className='contact'>
     </div>
+      <Footer/>
+    </>
   )
 }
 
