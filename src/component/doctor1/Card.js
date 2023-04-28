@@ -7,7 +7,7 @@ const Card = (props) => {
           <div class="card-body">
             <h6 class="card-title">{props.name}</h6>
             <p class="card-text">
-              top best porn star
+              top best star
             </p>
             <Link to={props.to} class="btn btn-primary">
               About herself

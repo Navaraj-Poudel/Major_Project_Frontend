@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import SideNavbar from "./sideNavbar";
-import t4 from '../images/t4.jpg'
+import t4 from '../images/t4.jpeg'
 import Footer from "../footer/Footer";
 const Treatedp = () => {
   return (

@@ -48,6 +48,7 @@ const App = ()=> {
           <Route path="/Yourinfo" element = {<Yourinfo/>} />
         </Routes>
       </BrowserRouter>
+
     </div>
 
  )

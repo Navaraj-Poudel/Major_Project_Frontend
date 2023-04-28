@@ -1,6 +1,6 @@
 import React from 'react'
 import SideNavbar from '../doctor1/sideNavbar'
-import t4 from '../images/t4.jpg'
+import t4 from '../images/t4.jpeg'
 const Yourinfo = () => {
   return (
     <>
@@ -11,9 +11,9 @@ const Yourinfo = () => {
           <img src={t4} class="card-img-top" alt="..." />
           </div>
           <div className="personalinfo">
-            <h6>Name : MIA Khalifa </h6>
+            <h6>Name : nawaraj poudel </h6>
             <h6>Age : 29 years old </h6>
-            <h6> Sex: Female </h6>
+            <h6> Sex: male</h6>
             <h6>Date Of Birth: 2001 may 09</h6>
             <h6>Current address:Lamachaure,Pokhara </h6>
             <h6>Permanent address:Kawasoti </h6>

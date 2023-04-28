@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from "./Card";
 import SideNavbar from './sideNavbar'
-import t3 from '../images/t3.jpg'
+import t3 from '../images/t3.jpeg'
 import './style.css'
 import Footer from '../footer/Footer';
 const Upcomingp = () => {
