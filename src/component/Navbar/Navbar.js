@@ -25,7 +25,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link active" aria-current="page" to="/" spy={true} smooth={true} offset={50} duration={500}>
                   <h5>Home</h5>
                 </Link>
               </li>
@@ -34,6 +34,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   to="/about"
+                  spy={true} smooth={true} offset={50} duration={500}
                 >
                   <h5>About</h5>
                 </Link>
@@ -43,6 +44,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   to="/doctor"
+                  spy={true} smooth={true} offset={50} duration={500}
                 >
                   <h5>Doctor</h5>
                 </Link>
@@ -52,6 +54,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   to="/patient"
+                  spy={true} smooth={true} offset={50} duration={500}
                 >
                   <h5>Patient</h5>
                 </Link>
@@ -61,6 +64,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   to="/admin"
+                  spy={true} smooth={true} offset={50} duration={500}
                 >
                   <h5>Admin</h5>
                 </Link>
@@ -70,6 +74,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   to="/contactus"
+                  spy={true} smooth={true} offset={50} duration={500}
                 >
                   <h5>Contactus</h5>
                 </Link>
